@@ -2,4 +2,4 @@
 Responsive Gallery Portofoliu using HTML and CSS
 
 # Demo
-The project is deployed at <a href="nostossustanability.netlify.app"></a>
+The project is deployed at https://nostossustanability.netlify.app/
