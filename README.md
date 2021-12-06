@@ -1,4 +1,4 @@
-# nostos
+# Nostos ECO living
 Responsive Gallery Portofoliu using HTML and CSS
 
 # Demo
