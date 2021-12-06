@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #000000;
+}
+
+.logo {
+  width: 75px;
+  margin-top: -16px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 20%;
+  position: relative;
+  transition: transform 500ms;
+  display: block;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  display: block;
+}
+
+.row .container:focus,
+.row .container:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.description {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .description {
+  opacity: 1;
+}
+
+.text {
+  font-size: 16px;
+  padding: 16px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .row .container:focus,
+  .row .container:hover {
+    transform: none;
+    z-index: 1;
+  }
+
+  .contact {
+    position: relative;
+  }
+
+  .text {
+    font-size: 32px;
+    padding: 16px;
+  }
+}
